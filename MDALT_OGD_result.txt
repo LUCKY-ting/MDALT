@@ -1,0 +1,115 @@
+name = bibtex, linear MDALT, runTimes = 20, epoch = 30, maxIter = 1 
+miu = 0.9, theta = 0.8, eta = 0.000976563 
+precision +std,  recall +std,  F1score +std 
+0.4143, 0.0164, 0.5719, 0.0266, 0.4797, 0.0034,
+macro_F1score +std, micro_F1score +std 
+0.3499, 0.0037, 0.4050, 0.0091 
+ hammingloss +std, subsetAccuracy +std 
+0.0244, 0.0023, 0.1203, 0.0081,
+ rankingLoss +std, oneErr +std 
+0.0540, 0.0003, 0.3856, 0.0041 
+training time [s], testing time [s]
+3.0522, 0.1088 
+
+name = tmc2007-500, Kernel_MDALT, runTimes = 20, scale = 0.707107, eta = 0.125, miu = 0.1, theta = 0.9, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.7762, 0.0015, 0.8269, 0.0017, 0.8007, 0.0005,
+macro_F1score +std, micro_F1score +std 
+0.6722, 0.0011, 0.7763, 0.0006 
+ hammingloss +std, subsetAccuracy +std 
+0.0467, 0.0002, 0.5035, 0.0015,
+ rankingLoss +std, oneErr +std 
+0.0395, 0.0001, 0.1634, 0.0005 
+ training time [s], testing time [s]
+259.6590, 3.8005 
+
+name = genbase, Kernel_MDALT, runTimes = 20, scale = 1.41421, eta = 0.0883883, miu = 0.1, theta = 0.6, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.9975, 0.0022, 0.9933, 0.0000, 0.9954, 0.0011,
+macro_F1score +std, micro_F1score +std 
+0.7712, 0.0053, 0.9918, 0.0017 
+ hammingloss +std, subsetAccuracy +std 
+0.0007, 0.0002, 0.9799, 0.0043,
+ rankingLoss +std, oneErr +std 
+0.0042, 0.0000, 0.0000, 0.0000 
+ training time [s], testing time [s]
+0.1068, 0.0169 
+
+name = enron, Kernel_MDALT, runTimes = 20, scale = 16, eta = 0.176777, miu = 0.1, theta = 0.8, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.5738, 0.0266, 0.6646, 0.0244, 0.6149, 0.0075,
+macro_F1score +std, micro_F1score +std 
+0.2257, 0.0054, 0.5747, 0.0097 
+ hammingloss +std, subsetAccuracy +std 
+0.0593, 0.0043, 0.0742, 0.0225,
+ rankingLoss +std, oneErr +std 
+0.0745, 0.0009, 0.2331, 0.0119 
+ training time [s], testing time [s]
+1.3456, 0.0481 
+
+
+name = medical, linear MDALT, runTimes = 20, epoch = 30, maxIter = 1 
+miu = 0.1, theta = 0.5, eta = 0.015625 
+precision +std,  recall +std,  F1score +std 
+0.7775, 0.0076, 0.8665, 0.0130, 0.8195, 0.0074,
+macro_F1score +std, micro_F1score +std 
+0.4102, 0.0159, 0.7911, 0.0073 
+ hammingloss +std, subsetAccuracy +std 
+0.0124, 0.0006, 0.5943, 0.0164,
+ rankingLoss +std, oneErr +std 
+0.0179, 0.0003, 0.1284, 0.0041 
+training time [s], testing time [s]
+0.0214, 0.0072 
+
+
+
+
+name = scene, Kernel_MDALT, runTimes = 20, scale = 2.82843, eta = 0.176777, miu = 0.1, theta = 0.3, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.7456, 0.0045, 0.7827, 0.0130, 0.7636, 0.0069,
+macro_F1score +std, micro_F1score +std 
+0.7671, 0.0024, 0.7580, 0.0029 
+ hammingloss +std, subsetAccuracy +std 
+0.0886, 0.0023, 0.6235, 0.0110,
+ rankingLoss +std, oneErr +std 
+0.0679, 0.0009, 0.2026, 0.0026 
+ training time [s], testing time [s]
+0.2801, 0.0639 
+
+name = emotions-scale, Kernel_MDALT, runTimes = 20, scale = 0.25, eta = 0.0883883, miu = 0.7, theta = 0.3, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.6915, 0.0058, 0.7771, 0.0040, 0.7318, 0.0030,
+macro_F1score +std, micro_F1score +std 
+0.7212, 0.0025, 0.7290, 0.0027 
+ hammingloss +std, subsetAccuracy +std 
+0.1915, 0.0026, 0.3384, 0.0112,
+ rankingLoss +std, oneErr +std 
+0.1543, 0.0010, 0.2869, 0.0038 
+ training time [s], testing time [s]
+0.0568, 0.0043 
+
+name = birds-scale, Kernel_MDALT, runTimes = 20, scale = 0.0883883, eta = 0.00552427, miu = 0.1, theta = 0.7, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.6459, 0.0008, 0.7199, 0.0000, 0.6809, 0.0004,
+macro_F1score +std, micro_F1score +std 
+0.4246, 0.0007, 0.4902, 0.0004 
+ hammingloss +std, subsetAccuracy +std 
+0.0613, 0.0001, 0.4904, 0.0016,
+ rankingLoss +std, oneErr +std 
+0.0963, 0.0013, 0.2322, 0.0000 
+ training time [s], testing time [s]
+0.0568, 0.0068 
+
+name = yeast, Kernel_MDALT, runTimes = 20, scale = 0.353553, eta = 0.176777, miu = 0.6, theta = 0.5, epoch = 10, maxIter = 1 
+precision +std,  recall +std,  F1score +std 
+0.6719, 0.0074, 0.7115, 0.0116, 0.6910, 0.0021,
+macro_F1score +std, micro_F1score +std 
+0.4456, 0.0053, 0.6814, 0.0017 
+ hammingloss +std, subsetAccuracy +std 
+0.1986, 0.0028, 0.1856, 0.0077,
+ rankingLoss +std, oneErr +std 
+0.1595, 0.0006, 0.2273, 0.0033 
+ training time [s], testing time [s]
+0.5128, 0.0451 
+
+

@@ -1,0 +1,26 @@
+
+MATLAB Code for the paper: Optimizing margin distribution for online multi-label classification
+
+## guideline for how to use this code
+
+1. "run_mex_MDALT_dcd.m" is a demo for the linear MDALT_dcd algorithm proposed in this paper, which relies on  "MD_ALT_train_dcd_sparse.c" to run.
+You should first input "mex -largeArrayDims MD_ALT_train_dcd_sparse.c" in the command window of matlab in order to build a executable mex-file.
+Then run "run_mex_MDALT_dcd.m".
+
+2. "run_mex_MDALT_sgd.m" is a demo for the linear MDALT_sgd algorithm proposed in this paper, which relies on  "MD_ALT_train_sparse.c" to run.
+You should first input "mex -largeArrayDims MD_ALT_train_sparse.c" in the command window of matlab in order to build a executable mex-file.
+Then run "run_mex_MDALT_sgd.m".
+
+3. "run_kernel_MDALT_dcd.m" is a demo for the kernelized MDALT_dcd algorithm.
+Before running this program, the kernel matrix has been precalculated for accelerating the computing. 
+So if you want to change the dataset, please follow the steps below to run the program:
+(1) run "precalculate_kernelMatrix.m" to create the kernel matrix
+(2) run "run_kernel_MDALT_dcd.m".
+
+4. "run_kernel_MDALT_sgd.m" is a demo for the kernelized MDALT_sgd algorithm.
+   Please follow the same procedure as that for "run_kernel_MDALT_dcd.m".
+
+
+ATTN: 
+- This package is free for academic usage. You can run it at your own risk. For other purposes, please contact Tingting ZHAI (zhtt@yzu.edu.cn).
+- This package was developed by Tingting ZHAI (zhtt@yzu.edu.cn). For any problem concerning the code, please feel free to contact Mrs.ZHAI.
